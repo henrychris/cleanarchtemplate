@@ -8,8 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CleanArchTemplate.Common\CleanArchTemplate.Common.csproj" />
-      <ProjectReference Include="..\CleanArchTemplate.Domain\CleanArchTemplate.Domain.csproj" />
+        <ProjectReference Include="..\CleanArchTemplate.Common\CleanArchTemplate.Common.csproj"/>
+        <ProjectReference Include="..\CleanArchTemplate.Domain\CleanArchTemplate.Domain.csproj"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0"/>
     </ItemGroup>
 
 </Project>

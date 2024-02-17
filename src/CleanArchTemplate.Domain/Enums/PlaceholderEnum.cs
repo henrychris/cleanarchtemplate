@@ -1,3 +1,3 @@
-namespace CleanArchTemplate.Domain.Enumes;
+namespace CleanArchTemplate.Domain.Enums;
 
-public enum PlaceholderEnum {  }
+public enum PlaceholderEnum;

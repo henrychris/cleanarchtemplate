@@ -1,6 +1,6 @@
 namespace CleanArchTemplate.Domain.Settings;
 
-public class JwtSettings
+public class DatabaseSettings
 {
-    
+    public string? ConnectionString { get; set; }
 }

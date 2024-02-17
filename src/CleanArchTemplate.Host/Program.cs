@@ -1,18 +1,22 @@
+using CleanArchTemplate.Host.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.SetupConfigFiles();
+// setup database
+builder.Services.SetupControllers();
+builder.Services.AddSwagger();
+builder.Services.SetupFilters();
+// setup identity
+// setup authentication
+builder.Services.RegisterServices();
+builder.Services.SetupJsonOptions();
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
+app.RegisterSwagger();
+app.RegisterMiddleware();
+// seed db here if needed
 app.Run();
+
+// this is here for integration tests
+public partial class Program;
