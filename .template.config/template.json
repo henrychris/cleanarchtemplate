@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ihenacho Henry",
+  "classifications": ["Common"],
+  "name": "CleanArchTemplate",
+  "identity": "CleanArchTemplate",
+  "shortName": "cleanarchtemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "CleanArchTemplate",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": ["**/.git/**", "**/.vs/**", "**/.idea/**"]
+        }
+      ]
+    }
+  ]
+}
