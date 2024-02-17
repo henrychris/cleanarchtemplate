@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my personal template for projects in C#. It has consistent folder structure, and responses for the API. An editorconfig file is also included. The template mixes the  Architecture with Vertical Slice Architecture.  
+This is my template for projects in C#. It has a consistent folder structure and responses for the API. An editorconfig file is also included. The template mixes Clean  Architecture with Vertical Slice Architecture.  
 
 ## Installation
 
