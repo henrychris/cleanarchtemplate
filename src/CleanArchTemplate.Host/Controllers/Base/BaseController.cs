@@ -1,8 +1,8 @@
 using System.Net.Mime;
 using System.Runtime.InteropServices.JavaScript;
 
-using CleanArchTemplate.Application.ApiResponses;
-using CleanArchTemplate.Infrastructure.Filters;
+using LonH.Shared.ApiResponses;
+using LonH.Shared.Filters;
 
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,8 +1,8 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-using CleanArchTemplate.Infrastructure.Filters;
-using CleanArchTemplate.Infrastructure.Middleware;
+using LonH.Shared.Filters;
+using LonH.Shared.Middleware;
 
 using Microsoft.AspNetCore.Mvc;
 
@@ -41,7 +41,7 @@ public static class StartupConfiguration
             jsonOptions.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
         });
     }
-    
+
     public static void RegisterMiddleware(this WebApplication app)
     {
         app.UseHttpsRedirection();

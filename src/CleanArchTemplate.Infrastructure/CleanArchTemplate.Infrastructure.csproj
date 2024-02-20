@@ -8,8 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CleanArchTemplate.Application\CleanArchTemplate.Application.csproj" />
-      <ProjectReference Include="..\CleanArchTemplate.Domain\CleanArchTemplate.Domain.csproj" />
+        <PackageReference Include="LonH.Shared" Version="1.0.1"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\CleanArchTemplate.Application\CleanArchTemplate.Application.csproj"/>
+        <ProjectReference Include="..\CleanArchTemplate.Domain\CleanArchTemplate.Domain.csproj"/>
     </ItemGroup>
 
 </Project>

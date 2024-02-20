@@ -8,8 +8,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchTemplate.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchTemplate.Infrastructure", "src\CleanArchTemplate.Infrastructure\CleanArchTemplate.Infrastructure.csproj", "{6C0980E5-1A3C-4D8B-BDAD-3852A5F8DD11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchTemplate.Common", "src\CleanArchTemplate.Common\CleanArchTemplate.Common.csproj", "{6DBCB354-8BC2-4F8B-B7A4-88E7A234577F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchTemplate.Tests", "tests\CleanArchTemplate.Tests\CleanArchTemplate.Tests.csproj", "{0D933967-0B6C-4A90-8D01-4C2358E26741}"
 EndProject
 Global
@@ -34,10 +32,6 @@ Global
 		{6C0980E5-1A3C-4D8B-BDAD-3852A5F8DD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C0980E5-1A3C-4D8B-BDAD-3852A5F8DD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C0980E5-1A3C-4D8B-BDAD-3852A5F8DD11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DBCB354-8BC2-4F8B-B7A4-88E7A234577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DBCB354-8BC2-4F8B-B7A4-88E7A234577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DBCB354-8BC2-4F8B-B7A4-88E7A234577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DBCB354-8BC2-4F8B-B7A4-88E7A234577F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D933967-0B6C-4A90-8D01-4C2358E26741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D933967-0B6C-4A90-8D01-4C2358E26741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D933967-0B6C-4A90-8D01-4C2358E26741}.Release|Any CPU.ActiveCfg = Release|Any CPU
